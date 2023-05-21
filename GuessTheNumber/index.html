@@ -7,17 +7,17 @@
             <h1>Guess The Number</h1>
             <p>[Between 1 and 20]</p>
             <button>Try Again</button>
-            <div>?</div>
+            <div class="number">?</div>
         </header>
         <main>
             <section>
-                <input type="number"/>
-                <button>Check</button>
+                <input type="number" class="userGuess"/>
+                <button class="checkButton">Check</button>
             </section>
             <section>
-                <p>Start guessing ...</p>
-                <p>Score: </p>
-                <p>High Score:0 <span></span></p>
+                <p class="message">Start guessing ...</p>
+                <p>Score: <span class="score">20</span> </p>
+                <p>High Score: <span class="highScore"></span></p>
             </section>
         </main>
         <script src="script.js"></script>
